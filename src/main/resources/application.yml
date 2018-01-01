@@ -3,3 +3,12 @@ guru:
        username: pallab_jms
        password: pallabjmspass
        url: pallabjmsurl
+
+---
+spring:
+     profiles: de
+guru:
+    jms:
+      username: pallab_jms**In**German
+      password: pallabjmspass**In**German
+      url: pallabjmsurl**In**German
