@@ -18,8 +18,8 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 // This is an alternative and best/popular approach when you have multiple properties file to be loaded in the spring context.
 @PropertySources({
-        @PropertySource("classpath:datasource.properties"),
-        @PropertySource("classpath:jms.properties")
+        @PropertySource("classpath:datasource.properties")
+        //@PropertySource("classpath:jms.properties")
 })
 public class PropertyConfig {
 
